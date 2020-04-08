@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/zolder.unity
+- path: Assets/Scenes/zolder_VR.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
