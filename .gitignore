@@ -1312,3 +1312,7 @@
   </body>
 </html>
 
+*.csproj
+*.sln
+Unity_Zolder/Temp
+Unity_Zolder/Library
