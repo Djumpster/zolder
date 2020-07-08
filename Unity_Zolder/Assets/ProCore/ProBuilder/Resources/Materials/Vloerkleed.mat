@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Default_Prototype 1
-  m_Shader: {fileID: 4800000, guid: 3a6e79a67e3129f409bae52acc3ab06b, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
+  m_Name: Vloerkleed
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -89,7 +89,9 @@ Material:
     - _DstBlend: 0
     - _EmissionScaleUI: 0
     - _Gloss: 0.5
-    - _Glossiness: 0.48
+    - _GlossMapScale: 1
+    - _Glossiness: 0.111
+    - _GlossyReflections: 1
     - _Lightmapping: 1
     - _Metallic: 0
     - _Mode: 0
@@ -97,12 +99,14 @@ Material:
     - _Parallax: 0.02
     - _Phase: 1
     - _Size: 25
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 1
     - _Wavelength: 0.17857142
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.036445353, g: 0.19873191, b: 0.3679245, a: 1}
+    - _Color: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
     - _Color1: {r: 0.67910445, g: 0.67910445, b: 0.67910445, a: 1}
     - _Color2: {r: 0.14179105, g: 0.14179105, b: 0.14179105, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
