@@ -1,6 +1,4 @@
-﻿using Attributes;
-using System.Collections;
-using System.Collections.Generic;
+﻿using Talespin.Core.Foundation.Attributes;
 using UnityEngine;
 
 namespace Densetsu.App

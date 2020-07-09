@@ -1316,3 +1316,4 @@
 *.sln
 Unity_Zolder/Temp
 Unity_Zolder/Library
+Unity_Zolder/obj/Debug
