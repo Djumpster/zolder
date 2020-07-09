@@ -15,6 +15,7 @@ namespace Talespin.Core.Attributes
 	{
 		public object Draw(GUIContent label, object value, Type type, PropertyAttribute attribute)
 		{
+			Debug.Log("Shalalali");
 			List<string> availableTags = new List<string>();
 
 			if (ConstantTagUtils.GetAvailableTags<string>((ConstantTagAttribute)attribute, availableTags).Count > 0)
