@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PartIdentifiers
+public abstract class PartIdentifiers
 {
     public const string VOETPLAAT = "voetplaat";
     public const string KNIESTUK = "kniestuk";
+    public const string T_STUK = "t-stuk";
+    public const string KRUISSTUK = "kruisstuk";
 }

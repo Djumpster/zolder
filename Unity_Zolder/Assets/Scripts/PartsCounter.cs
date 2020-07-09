@@ -7,18 +7,18 @@ namespace Densetsu.App
 {
     public class PartsCounter : MonoBehaviour
     {
-        private static readonly Dictionary<string, int> register = new Dictionary<string, int>();
+        private static readonly Dictionary<string, List<GameObject>> register = new Dictionary<string, List<GameObject>>();
 
-        public static void RegisterPart (string partID)
+        public static void RegisterPart (string partID, GameObject registree)
         {
             if (!register.ContainsKey(partID))
             {
-                register.Add(partID, 0);
+                register.Add(partID, new List<GameObject>());
             }
-
-            register[partID]++;
-
-
+            if (!register[partID].Contains(registree))
+            {
+                register[partID].Add(registree);
+            }
             PrintRegister();
         }
 
@@ -26,7 +26,7 @@ namespace Densetsu.App
         {
             foreach(var kvp in register)
             {
-                Debug.Log(kvp.Key + " : " + kvp.Value);
+                Debug.Log(kvp.Key + " : " + kvp.Value.Count);
             }
         }
     }
