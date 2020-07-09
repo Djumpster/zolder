@@ -108,6 +108,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5479855767669136337}
     m_Modifications:
+    - target: {fileID: 218226103128973093, guid: 6d1a437072e80404596475c75b6542ed,
+        type: 3}
+      propertyPath: partID
+      value: t-stuk
+      objectReference: {fileID: 0}
     - target: {fileID: 3793676570519566225, guid: 6d1a437072e80404596475c75b6542ed,
         type: 3}
       propertyPath: m_LocalPosition.x

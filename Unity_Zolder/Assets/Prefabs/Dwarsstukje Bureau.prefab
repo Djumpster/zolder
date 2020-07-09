@@ -1,11 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2375448029079768294
+--- !u!1001 &3235016811769421671
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6594949221567988487}
+    m_TransformParent: {fileID: 6311698821069000838}
     m_Modifications:
     - target: {fileID: 1392024508100170, guid: ea0a71d302770134e9f9613c04fc8ff3, type: 3}
       propertyPath: m_Name
@@ -59,15 +59,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.25
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1420133947, guid: ea0a71d302770134e9f9613c04fc8ff3, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea0a71d302770134e9f9613c04fc8ff3, type: 3}
---- !u!1001 &5106667430524745606
+--- !u!1001 &5389921705074795527
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6594949221567988487}
+    m_TransformParent: {fileID: 6311698821069000838}
     m_Modifications:
     - target: {fileID: 1424511256855955930, guid: 4c28af6ba515f9f4280734c325363384,
         type: 3}
@@ -131,12 +130,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c28af6ba515f9f4280734c325363384, type: 3}
---- !u!1001 &7209885625088584177
+--- !u!1001 &7502142683675425392
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 6594949221567988487}
+    m_TransformParent: {fileID: 6311698821069000838}
     m_Modifications:
     - target: {fileID: 2951798305877192953, guid: f60f814bd83d65e479eb56e7312463ae,
         type: 3}
@@ -147,11 +146,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6088405594556729987, guid: f60f814bd83d65e479eb56e7312463ae,
-        type: 3}
-      propertyPath: partID
-      value: kruisstuk
       objectReference: {fileID: 0}
     - target: {fileID: 7190365383201927809, guid: f60f814bd83d65e479eb56e7312463ae,
         type: 3}
@@ -196,7 +190,7 @@ PrefabInstance:
     - target: {fileID: 7195854319600280119, guid: f60f814bd83d65e479eb56e7312463ae,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7195854319600280119, guid: f60f814bd83d65e479eb56e7312463ae,
         type: 3}
@@ -215,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f60f814bd83d65e479eb56e7312463ae, type: 3}
---- !u!1001 &8486166016681887349
+--- !u!1001 &8779403280750843380
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -225,7 +219,7 @@ PrefabInstance:
     - target: {fileID: 3332976431396046194, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.56179
+      value: -1.0770996
       objectReference: {fileID: 0}
     - target: {fileID: 3332976431396046194, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
@@ -235,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 3332976431396046194, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.275
+      value: 0.27500018
       objectReference: {fileID: 0}
     - target: {fileID: 3332976431396046194, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
@@ -280,97 +274,18 @@ PrefabInstance:
     - target: {fileID: 4129621498655290885, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_Name
-      value: Dwarsstukje Bureau Variant
+      value: Dwarsstukje Bureau
       objectReference: {fileID: 0}
     - target: {fileID: 4803583694273406491, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_Name
-      value: Koppeling-t-stuk
-      objectReference: {fileID: 0}
-    - target: {fileID: 4803583694273406491, guid: 839945c37ec96044689d6ac9dda4d2ad,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      value: Koppeling-kruisstuk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 839945c37ec96044689d6ac9dda4d2ad, type: 3}
---- !u!4 &6594949221567988487 stripped
+--- !u!4 &6311698821069000838 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3332976431396046194, guid: 839945c37ec96044689d6ac9dda4d2ad,
     type: 3}
-  m_PrefabInstance: {fileID: 8486166016681887349}
+  m_PrefabInstance: {fileID: 8779403280750843380}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8809428357536780902
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6594949221567988487}
-    m_Modifications:
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.2639
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1379931414243692073, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383449613484023455, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_Name
-      value: Koppeling-Voetplaat
-      objectReference: {fileID: 0}
-    - target: {fileID: 1383449613484023455, guid: 4ce35625dfb5c6e498290b986fb0a16a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4ce35625dfb5c6e498290b986fb0a16a, type: 3}

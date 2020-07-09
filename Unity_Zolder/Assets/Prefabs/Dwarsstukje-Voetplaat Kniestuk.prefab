@@ -7,10 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 354482122606147587, guid: 839945c37ec96044689d6ac9dda4d2ad,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 354482122606147587, guid: 839945c37ec96044689d6ac9dda4d2ad,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354482122606147587, guid: 839945c37ec96044689d6ac9dda4d2ad,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 354482122606147587, guid: 839945c37ec96044689d6ac9dda4d2ad,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
     - target: {fileID: 359971054704289973, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1604812744556150319, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
@@ -95,7 +115,7 @@ PrefabInstance:
     - target: {fileID: 4129621498655290885, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_Name
-      value: Dwarsstukje-Voetplaat Variant
+      value: Dwarsstukje-Voetplaat Kniestuk
       objectReference: {fileID: 0}
     - target: {fileID: 4801785382022088593, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
@@ -110,12 +130,12 @@ PrefabInstance:
     - target: {fileID: 4803583694273406491, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4808790743378196141, guid: 839945c37ec96044689d6ac9dda4d2ad,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1608914133009498320, guid: 839945c37ec96044689d6ac9dda4d2ad, type: 3}
